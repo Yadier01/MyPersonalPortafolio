@@ -1,21 +1,35 @@
-import { Project } from "./Projects";
+import React from "react";
+import Main from "./Main";
 
-const Header = () => {
+interface propsType {
+  refs: {
+    project: React.RefObject<HTMLDivElement>;
+    about: React.RefObject<HTMLDivElement>;
+    contact: React.RefObject<HTMLDivElement>;
+  };
+  scrollToRef: (ref: React.RefObject<HTMLDivElement>) => void;
+}
+
+const Header = ({ refs, scrollToRef }: propsType) => {
   return (
-    <header className="h-20 bg-slate-900 text-white">
-      <nav className="h-full  ">
+    <header className="h-20 bg-slate-900 text-white fixed top-0 left-0 right-0">
+      <nav className="h-full">
         <div className="flex h-full justify-evenly items-center">
           <span>YG</span>
           <div className="flex">
             <ul className="flex gap-10">
               <li>
-                <button>Project</button>
+                <button onClick={() => scrollToRef(refs.project)}>
+                  Project
+                </button>
               </li>
               <li>
-                <button>About</button>
+                <button onClick={() => scrollToRef(refs.about)}>About</button>
               </li>
               <li>
-                <button>Contact</button>
+                <button onClick={() => scrollToRef(refs.contact)}>
+                  Contact
+                </button>
               </li>
             </ul>
           </div>

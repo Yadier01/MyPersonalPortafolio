@@ -3,23 +3,33 @@ import Header from "./components/Header";
 import { Project } from "./components/Projects";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
-import { Main } from "./components/Main";
+import Main from "./components/Main";
 
-function App() {
-  const ref1 = useRef(null);
-  const ref2 = useRef(null);
-  const ref3 = useRef(null);
-  const ref4 = useRef(null);
+const App = () => {
+  const refs = {
+    project: useRef<HTMLDivElement>(null),
+    about: useRef<HTMLDivElement>(null),
+    contact: useRef<HTMLDivElement>(null),
+  };
+
+  const scrollToRef = (ref: React.RefObject<HTMLDivElement>) => {
+    if (ref.current) {
+      window.scrollTo({
+        top: ref.current.offsetTop,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
-    <body className="h-screen">
-      <Header></Header>
+    <div className="h-screen py-20 ">
+      <Header refs={refs} scrollToRef={scrollToRef}></Header>
       <Main></Main>
-      <Project></Project>
-      <About></About>
-      <Contact></Contact>
-    </body>
+      <Project ref={refs.project} text={"a"}></Project>
+      <About ref={refs.about} text={"a"}></About>
+      <Contact ref={refs.contact} text={"a"}></Contact>
+    </div>
   );
-}
+};
 
 export default App;
