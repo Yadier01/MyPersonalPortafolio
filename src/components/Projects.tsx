@@ -1,3 +1,3 @@
 export const Project = () => {
-  return <></>;
+  return <section className="h-screen "></section>;
 };

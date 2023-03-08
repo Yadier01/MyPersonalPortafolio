@@ -1,3 +1,3 @@
 export const Contact = () => {
-  return <></>;
+  return <section className="h-screen bg-neutral-100"></section>;
 };
