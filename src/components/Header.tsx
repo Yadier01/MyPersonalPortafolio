@@ -11,7 +11,7 @@ interface propsType {
 
 const Header = ({ refs, scrollToRef }: propsType) => {
   return (
-    <header className="h-20 bg-slate-900 text-white fixed top-0 left-0 right-0">
+    <header className="h-20 bg-slate-900 text-white fixed top-0 left-0 right-0 ">
       <nav className="h-full">
         <div className="flex h-full justify-around px-10 items-center">
           <span>YG</span>
