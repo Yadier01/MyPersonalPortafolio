@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import { Project } from "./components/Projects";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
-import Main from "./components/Main";
+import Main from "./components/SartingSection";
 
 const App = () => {
   const refs = {

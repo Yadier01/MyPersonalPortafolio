@@ -1,5 +1,4 @@
 import React from "react";
-import { forwardRef } from "react";
 
 export const About = React.forwardRef<HTMLDivElement, { text: string }>(
   ({ text }, ref) => (
