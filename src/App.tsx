@@ -25,9 +25,9 @@ const App = () => {
     <div className="h-screen py-20 ">
       <Header refs={refs} scrollToRef={scrollToRef}></Header>
       <Main></Main>
-      <Project ref={refs.project} text={"a"}></Project>
-      <About ref={refs.about} text={"a"}></About>
-      <Contact ref={refs.contact} text={"a"}></Contact>
+      <Project ref={refs.project} text={"Personall Projects"}></Project>
+      <About ref={refs.about} text={"About me :)"}></About>
+      <Contact ref={refs.contact} text={"Contact"}></Contact>
     </div>
   );
 };
