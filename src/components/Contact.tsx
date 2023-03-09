@@ -15,28 +15,32 @@ export const Contact = React.forwardRef<HTMLDivElement, { text: string }>(
             <input
               type="text"
               placeholder="Name*"
+              name="name"
               className="bg-zinc-200 p-4 rounded-lg"
               required
             />
             <input
               type="email"
               placeholder="Email*"
+              name="email"
               required
               className="bg-zinc-200 p-4 rounded-lg"
             />
             <textarea
-              id="message"
+              name="message"
               required
               cols={30}
               rows={10}
               minLength={10}
               className="bg-zinc-200 p-4 rounded-lg"
             ></textarea>
-            <input
+            <button
               type="submit"
               value="submit"
               className="px-4 cursor-pointer"
-            />
+            >
+              Submit
+            </button>
           </div>
         </form>
       </section>
