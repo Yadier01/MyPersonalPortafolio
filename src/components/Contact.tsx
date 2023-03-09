@@ -11,6 +11,7 @@ export const Contact = React.forwardRef<HTMLDivElement, { text: string }>(
           data-netlify="true"
           className="grid place-content-center h-full  text-black m-auto"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="bg-zinc-100 grid gap-3 p-7 rounded-lg ">
             <input
               type="text"
