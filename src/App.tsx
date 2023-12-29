@@ -26,7 +26,7 @@ const App = () => {
       <div className="md:mx-24 mx-4  bg-[#0f172a] 2xl:mx-64">
         <Header refs={refs} scrollToRef={scrollToRef} />
         <Main />
-        <Project ref={refs.project} text={"Personall Projects"} />
+        <Project ref={refs.project} text={"Personal Projects"} />
         <About ref={refs.about} text={"About me :)"} />
         <Contact ref={refs.contact} text={"Contact"} />
       </div>
