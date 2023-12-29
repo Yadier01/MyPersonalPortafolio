@@ -13,7 +13,7 @@ const img = [
     href: "https://product-feedback-lovat.vercel.app/",
     codeHref: "https://github.com/Yadier01/product-feedback",
     name: "Product Feedback",
-    description: "A feedback app for product",
+    description: "A feedback app for product | Work in progress",
     icons: [
       <TbBrandNextjs size={25} />,
       <SiTailwindcss size={25} />,
@@ -47,7 +47,7 @@ const img = [
     ],
   },
   {
-    src: "./interactiveTextss.png",
+    src: "./InteractiveText.png",
     href: "https://interactive-comments-murex.vercel.app/",
     codeHref: "https://github.com/Yadier01/interactive-comments",
     name: "Interactive Texts",
