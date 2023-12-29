@@ -17,13 +17,13 @@ export const About = React.forwardRef<HTMLDivElement, { text: string }>(
           <p className="max-w-3xl text-xl  leading-relaxed hyphens-auto break-words ">
             Hey there! I'm a Puerto Rico-based 🇵🇷 individual with a genuine love
             for coding 👨‍💻 and a soft spot for our furry friends – both dogs and
-            cats. Beyond the screen, you'll catch me hitting the{" "}
+            cats. Beyond the screen, you'll catch me hitting the
             <span className="text-red-300">gym</span>, staying active and
             embracing a healthy lifestyle.
           </p>
           <p className="max-w-3xl text-xl my-4 leading-relaxed hyphens-auto break-words ">
             With over
-            <span className="text-yellow-300">
+            <span className="text-yellow-300 px-2">
               8 months of hands-on experience
             </span>
             in coding projects, I'm now on the lookout for a job to further
