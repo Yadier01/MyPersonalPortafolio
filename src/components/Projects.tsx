@@ -53,7 +53,6 @@ const img = [
     name: "Interactive Texts",
     description: "Interactive texts CRUD",
     icons: [
-      <TbBrandNextjs size={25} />,
       <SiTailwindcss size={25} />,
       <FaReact size={25} />,
       <SiTypescript size={25} />,
