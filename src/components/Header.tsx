@@ -11,9 +11,15 @@ interface propsType {
 
 const Header = ({ refs, scrollToRef }: propsType) => {
   return (
-    <header className="h-20 bg-slate-900 text-white fixed top-0 left-0 right-0 ">
-      <nav className="h-full">
-        <div className="flex h-full justify-around px-10 items-center">
+    <header
+      className="h-20 shadow-xl bg-slate-900 text-white 
+    fixed top-0 left-0 right-0 "
+    >
+      <nav className="h-full ">
+        <div
+          className="flex h-full justify-around  md:justify-between
+          items-center md:mx-24 lg:mx-64"
+        >
           <span>YG</span>
           <div className="flex">
             <ul className="flex gap-10">
