@@ -31,7 +31,7 @@ export const About = React.forwardRef<HTMLDivElement, { text: string }>(
             in coding projects, I'm now on the lookout for a job to further
             enrich my skills. Let's chat and explore how my passion and
             experience can
-            <span className="text-white ">contribute to your team!</span>
+            <span className="text-white pl-2 ">contribute to your team!</span>
           </p>
         </span>
         <div className="grid grid-cols-3  gap-6 ">
