@@ -64,9 +64,6 @@ export const Project = forwardRef<HTMLDivElement, ProjectProps>(
     <section className="h-full  bg-slate-900 text-white py-20" ref={ref}>
       <div className="grid place-content-center my-4">
         <h2 className="text-3xl">{text}</h2>
-        {/*  <div>
-          <p>VideoWithAllProjects.</p>
-        </div> */}
       </div>
       <div
         className="grid  w-full place-items-center 
@@ -74,6 +71,7 @@ export const Project = forwardRef<HTMLDivElement, ProjectProps>(
       >
         {img.map((item) => (
           <ProjectImg
+           key={item.name}
             src={item.src}
             codeHref={item.codeHref}
             href={item.href}
