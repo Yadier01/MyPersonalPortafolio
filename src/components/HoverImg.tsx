@@ -10,8 +10,8 @@ export const HoverImg = ({ href, name, description, icons }: any) => {
         <p className="text-sm font-semibold  ">{description}</p>
       </span>
       <ul className="flex item-center mt-4 gap-5">
-        {icons.map((icon: any) => (
-          <li className="text-yellow-400">{icon}</li>
+        {icons.map((icon: any, idx:any) => (
+          <li key={idx} className="text-yellow-400">{icon}</li>
         ))}
       </ul>
     </a>
