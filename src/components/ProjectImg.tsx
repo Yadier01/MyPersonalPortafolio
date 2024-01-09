@@ -22,7 +22,6 @@ export const ProjectImg = ({
           <img
             src={src}
             alt=""
-            onMouseEnter={(e) => console.log("enter")}
             className="w-full h-full object-cover transition-all"
           />
 
