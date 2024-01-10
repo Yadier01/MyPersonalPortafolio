@@ -28,11 +28,12 @@ const Main = () => {
               <SiGithub className="text-3xl"></SiGithub>
             </a>
           </div>
-          <div className="text-lg py-2 ">
+          {/* Resume will be added when completed */}
+          {/* <div className="text-lg py-2 ">
             <a href="#" className="text-red-200">
               Resume
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
