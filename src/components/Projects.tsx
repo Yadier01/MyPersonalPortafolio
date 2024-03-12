@@ -24,7 +24,7 @@ const img = [
   {
     src: "./github.png",
     codeHref: "https://github.com/Yadier01/github-devChallenges",
-    href: "https://github-dev-challenges-bsib16zd5-kcabsiemaneht.vercel.app/",
+    href: "https://github-dev-challenges.vercel.app/",
     name: "Github Profile Search",
     description: "Search for github profiles",
     icons: [
