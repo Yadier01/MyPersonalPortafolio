@@ -17,12 +17,12 @@ const Main = () => {
             Front-end <span className="text-yellow-400">Developer.</span>
           </h2>
           <div className="flex gap-8 flex-row items-center">
-            <a
+            {/*<a
               target="_blank"
               href="https://www.linkedin.com/in/yadier-marcial/ "
             >
               <AiOutlineLinkedin className="text-3xl" />
-            </a>
+            </a>*/}
 
             <a target="_blank" href="https://github.com/Yadier01">
               <SiGithub className="text-3xl"></SiGithub>
