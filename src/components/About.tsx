@@ -26,7 +26,7 @@ export const About = React.forwardRef<HTMLDivElement, { text: string }>(
           <p className="max-w-3xl text-xl my-4 text-gray-300 leading-relaxed hyphens-auto break-words ">
             With over
             <span className="text-yellow-300 px-2">
-              1 year of hands-on experience
+              2 year of hands-on experience
             </span>
             in coding projects, I'm now on the lookout for a job to further
             enrich my skills. Let's chat and explore how my passion and
