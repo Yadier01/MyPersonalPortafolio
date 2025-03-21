@@ -20,8 +20,7 @@ export const About = React.forwardRef<HTMLDivElement, { text: string }>(
             individual with a genuine love for coding 👨‍💻 and a soft spot for our
             furry friends – both dogs and cats. Beyond the screen, you'll catch
             me hitting the
-            <span className="text-red-300 pl-2">gym</span>, staying active and
-            embracing a healthy lifestyle.
+            <span className="text-red-300 pl-2">gym</span>.
           </p>
           <p className="max-w-3xl text-xl my-4 text-gray-300 leading-relaxed hyphens-auto break-words ">
             With over
@@ -45,5 +44,5 @@ export const About = React.forwardRef<HTMLDivElement, { text: string }>(
         </div>
       </span>
     </div>
-  )
+  ),
 );
