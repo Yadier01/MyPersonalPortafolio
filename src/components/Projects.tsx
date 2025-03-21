@@ -27,7 +27,7 @@ const img = [
     href: "https://trello-rsbuild-tanstack.netlify.app/",
     codeHref: "https://github.com/Yadier01/trello",
     name: "Trello Clone",
-    description: "Trello colne created with tanstack and rsbuild",
+    description: "Trello clone created with tanstack and rsbuild",
     icons: [
       <SiTailwindcss size={25} />,
       <FaReact size={25} />,
