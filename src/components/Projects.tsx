@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 import { ProjectImg } from "./ProjectImg";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandReact } from "react-icons/tb";
 import { SiTypescript, SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoVue } from "react-icons/io5";
@@ -16,6 +16,19 @@ const img = [
     description: "A feedback app for product",
     icons: [
       <TbBrandNextjs size={25} />,
+      <SiTailwindcss size={25} />,
+      <FaReact size={25} />,
+      <SiTypescript size={25} />,
+    ],
+  },
+
+  {
+    src: "./trello.png",
+    href: "https://trello-rsbuild-tanstack.netlify.app/",
+    codeHref: "https://github.com/Yadier01/trello",
+    name: "Trello Clone",
+    description: "Trello colne created with tanstack and rsbuild",
+    icons: [
       <SiTailwindcss size={25} />,
       <FaReact size={25} />,
       <SiTypescript size={25} />,
@@ -59,6 +72,7 @@ const img = [
     ],
   },
 ];
+// eslint-disable-next-line react/display-name
 export const Project = forwardRef<HTMLDivElement, ProjectProps>(
   ({ text }, ref) => (
     <section className="h-full  bg-slate-900 text-white py-20" ref={ref}>
@@ -66,12 +80,12 @@ export const Project = forwardRef<HTMLDivElement, ProjectProps>(
         <h2 className="text-3xl">{text}</h2>
       </div>
       <div
-        className="grid  w-full place-items-center 
+        className="grid  w-full place-items-center
         gap-14 grid-cols-1 md:grid-cols-2 "
       >
         {img.map((item) => (
           <ProjectImg
-           key={item.name}
+            key={item.name}
             src={item.src}
             codeHref={item.codeHref}
             href={item.href}
@@ -82,5 +96,5 @@ export const Project = forwardRef<HTMLDivElement, ProjectProps>(
         ))}
       </div>
     </section>
-  )
+  ),
 );

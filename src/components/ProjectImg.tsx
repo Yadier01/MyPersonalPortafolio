@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { HoverImg } from "./HoverImg";
 
 export const ProjectImg = ({
@@ -10,7 +10,6 @@ export const ProjectImg = ({
   icons,
 }: any) => {
   const [hover, setHover] = useState(false);
-
   return (
     <span className="h-full flex flex-col   justify-between">
       <div
@@ -41,6 +40,7 @@ export const ProjectImg = ({
           href={codeHref}
           className="bg-indigo-600 text-white hover:opacity-80 active:translate-y-1  transition-all  py-2 px-8 rounded-lg"
           target="_blank"
+          rel="noreferrer"
         >
           Code
         </a>
@@ -49,6 +49,7 @@ export const ProjectImg = ({
           className="bg-yellow-400 hover:opacity-80 transition-all
            active:translate-y-1 text-[#0f172a]  py-2 px-4 rounded-lg"
           target="_blank"
+          rel="noreferrer"
         >
           Live site
         </a>

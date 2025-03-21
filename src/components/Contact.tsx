@@ -1,10 +1,11 @@
 import React from "react";
 
+// eslint-disable-next-line react/display-name
 export const Contact = React.forwardRef<HTMLDivElement, { text: string }>(
   ({ text }, ref) => {
     return (
       <section
-        className="h-screen 
+        className="h-screen
         bg-slate-900 text-white py-20 items-center justify-between flex-row-reverse flex"
         ref={ref}
       >
@@ -14,7 +15,7 @@ export const Contact = React.forwardRef<HTMLDivElement, { text: string }>(
             name="contact"
             method="POST"
             data-netlify="true"
-            className="grid place-contet-center  w-1/2 h-full 
+            className="grid place-contet-center  w-1/2 h-full
            text-black "
           >
             <input type="hidden" name="form-name" value="contact" />
@@ -53,5 +54,5 @@ export const Contact = React.forwardRef<HTMLDivElement, { text: string }>(
         </div>
       </section>
     );
-  }
+  },
 );
