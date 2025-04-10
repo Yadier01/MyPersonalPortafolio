@@ -21,19 +21,19 @@ const img = [
       <SiTypescript size={25} />,
     ],
   },
-
-  {
-    src: "./trello.png",
-    href: "https://trello-rsbuild-tanstack.netlify.app/",
-    codeHref: "https://github.com/Yadier01/trello",
-    name: "Trello Clone",
-    description: "Trello clone created with tanstack and rsbuild",
-    icons: [
-      <SiTailwindcss size={25} />,
-      <FaReact size={25} />,
-      <SiTypescript size={25} />,
-    ],
-  },
+//need to fix some things form this repo
+  // {
+  //   src: "./trello.png",
+  //   href: "https://trello-rsbuild-tanstack.netlify.app/",
+  //   codeHref: "https://github.com/Yadier01/trello",
+  //   name: "Trello Clone",
+  //   description: "Trello clone created with tanstack and rsbuild",
+  //   icons: [
+  //     <SiTailwindcss size={25} />,
+  //     <FaReact size={25} />,
+  //     <SiTypescript size={25} />,
+  //   ],
+  // },
   {
     src: "./github.png",
     codeHref: "https://github.com/Yadier01/github-devChallenges",
