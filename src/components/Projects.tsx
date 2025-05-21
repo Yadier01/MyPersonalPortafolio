@@ -8,6 +8,19 @@ type ProjectProps = {
   text: string;
 };
 const img = [
+   {
+    src: "./productFeedback.png",
+    //href: "https://product-feedback-lovat.vercel.app/",
+    codeHref: "https://github.com/Yadier01/devlink-frontend",
+    name: "Devlink",
+    description: "A place where users can add their social links",
+    icons: [
+      <TbBrandNextjs size={25} />,
+      <SiTailwindcss size={25} />,
+      <FaReact size={25} />,
+      <SiTypescript size={25} />,
+    ],
+  },
   {
     src: "./productFeedback.png",
     href: "https://product-feedback-lovat.vercel.app/",
