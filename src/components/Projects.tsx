@@ -9,7 +9,7 @@ type ProjectProps = {
 };
 const img = [
    {
-    src: "./productFeedback.png",
+    src: "./devlink.png",
     //href: "https://product-feedback-lovat.vercel.app/",
     codeHref: "https://github.com/Yadier01/devlink-frontend",
     name: "Devlink",
